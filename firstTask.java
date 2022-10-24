@@ -9,7 +9,7 @@ public class firstTask {
 			
 			for (int j = 0; j<=n-1 ; j++) 
 			{
-			   if(j==(n-1)/2)
+			   if(j==(n-1)/2 || i==0 || i == n-1)
 		    	{
 				System.out.print("!");
 			     }
